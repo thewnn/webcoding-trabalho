@@ -1,0 +1,120 @@
+:root { /* define variaveis no css */
+    --bg-color: #ffffff; 
+    --text-color: #000000; 
+}
+
+a {
+    font-size: 30px;
+    font-family: mona-sans;
+    padding: 0px 18px;
+    color: var(--black);
+    transition: all 0.2s;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    font-size: 25px;
+    color: #0071ff;
+    cursor: pointer;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    text-align: center;
+    transition: background-color 0.5s ease, color 0.5s ease; 
+}
+
+header {
+    margin-bottom: -100px;
+}
+
+.nav-bar {
+    text-align: center; 
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.nav-bar .links {
+    display: inline-block; 
+}
+
+.iconemoon {
+    height: auto;
+    width: 30px;
+    display: flex;
+    cursor: pointer;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+img:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    background-color:rgba(87, 87, 87, 0.5);
+    border-radius: 20px;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    box-sizing: border-box; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+input[type="submit"] {
+    background-color: #0071ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 85px; 
+    background-color: transparent; 
+    color: var(--black); 
+    display: none; 
+    font-family: mona-sans;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.textologin{
+    font-family: mona-sans;
+    color: #212121;
+}

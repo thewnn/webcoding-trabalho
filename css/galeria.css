@@ -1,0 +1,126 @@
+:root { /* define variaveis no css */
+    --bg-color: #ffffff; 
+    --text-color: #000000; 
+}
+
+a{
+    font-size: 30px;
+    font-family: mona-sans;
+    padding: 0px 18px;
+    color: var(--black);
+    transition: all 0.2s;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    font-size: 25px;
+    color: #0071ff;
+    cursor: pointer;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    text-align: center;
+    transition: background-color 0.5s ease, color 0.5s ease; 
+    
+}
+
+.nav-bar {
+    text-align: center; 
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.nav-bar .links {
+    display: inline-block; 
+}
+
+header{
+    margin-bottom: -100px;
+}
+
+.iconemoon{
+    height: auto;
+    width: 30px;
+    display: flex;
+    cursor: pointer;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-pai{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;   
+}
+.container-f1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.container-f2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+.container-f3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+
+.imagem{
+    width:400px;
+    height: auto;
+    background-color:rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+img:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    background-color:rgba(87, 87, 87, 0.5);
+    border-radius: 20px;
+}
+
+.titulogaleria{
+    font-size: 30px;
+    font-family: mona-sans;
+    margin-bottom: 30px;
+}
+
+.space{
+    height: 50px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 85px; 
+    background-color: transparent; 
+    color: var(--text-color); 
+    display: none; 
+    margin-top: 100px;
+    font-family: mona-sans;
+}
+
+.footer p {
+    text-align: center;
+}
+

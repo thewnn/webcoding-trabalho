@@ -1,0 +1,147 @@
+:root { /* define variaveis no css */
+    --bg-color: #ffffff; 
+    --text-color: #000000; 
+}
+
+a{
+    font-size: 30px;
+    font-family: mona-sans;
+    padding: 0px 18px;
+    color: var(--black);
+    transition: all 0.2s;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    font-size: 25px;
+    color: #0071ff;
+    cursor: pointer;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    text-align: center;
+    transition: background-color 0.5s ease, color 0.5s ease; 
+}
+
+header{
+    margin-bottom: -100px;
+}
+
+.nav-bar {
+    text-align: center; 
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.nav-bar .links {
+    display: inline-block; 
+}
+
+.iconemoon{
+    height: auto;
+    width: 30px;
+    display: flex;
+    cursor: pointer;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1{
+    margin-right: 50px;
+}
+
+.img2{
+    margin-left: 50px;
+}
+
+img:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    background-color:rgba(87, 87, 87, 0.5);
+    border-radius: 20px;
+}
+
+.content-txt{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: end;
+    flex-direction: row;
+    margin-bottom: 200px;
+}
+
+.content-txt2 {
+    display: flex;
+    width: 100%;
+    height: 400px; 
+    justify-content: center;
+    align-items: start;
+    flex-direction: row;
+}
+
+.content-txt3{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: end;
+    flex-direction: row;
+}
+
+.content-txt4{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: end;
+    flex-direction: row;
+    margin-bottom: 200px;
+}
+
+.texto{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 750px;
+    height: 400px; 
+    font-family: 'mona-sans';
+    margin: 0; 
+}
+
+.sobretxt{
+    font-size: 30px;
+    margin: 0%;
+}
+
+.space{
+    height: 50px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 85px; 
+    background-color: transparent; 
+    color:var(--black); 
+    display: none; 
+    font-family: mona-sans;
+}
+
+.footer p{
+    text-align: center;
+}
